@@ -17,7 +17,6 @@
         }
         @keyframes fall{
         from{
-
         }
         to{
             transform: translateY(90vh);
@@ -27,7 +26,6 @@
     </style>
 </head>
 <body style="background-color: rgb(56, 56, 56)">
-    <div><img src="" alt=""></div>
 </body>
 <script>
     const body = document.querySelector("body");
@@ -48,9 +46,9 @@
         snow.style.height = snowSize;
 
 
-        body.appendChild(눈);
+        body.appendChild(snow);
         setTimeout(()=> {
-            body.removeChild(눈);
+            body.removeChild(snow);
         }, 9000);
     }
     /*
